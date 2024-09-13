@@ -75,7 +75,7 @@ function Item(props: { title: string; children: React.ReactNode }) {
   );
 }
 
-export function SupportPage() {
+/*export function SupportPage() {
   const { t } = useTranslation();
   const [isHovered, setIsHovered] = useState(false);
 
