@@ -11,7 +11,6 @@ interface Config {
   APP_VERSION: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
-  FACEBOOK_LINK: string;
   DONATION_LINK: string;
   INSTAGRAM_LINK: string;
   TMDB_READ_API_KEY: string;
@@ -32,7 +31,6 @@ interface Config {
 export interface RuntimeConfig {
   APP_VERSION: string;
   DONATION_LINK: string;
-  FACEBOOK_LINK: string;
   INSTAGRAM_LINK: string;
   HLSCONVERTER_URL: string;
   DMCA_EMAIL: string | null;
@@ -55,7 +53,6 @@ const env: Record<keyof Config, undefined | string> = {
   TMDB_READ_API_KEY: import.meta.env.VITE_TMDB_READ_API_KEY,
   APP_VERSION: undefined,
   DONATION_LINK: undefined,
-  FACEBOOK_LINK: undefined,
   INSTAGRAM_LINK: undefined,
   TWITTER_LINK: undefined,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: "https://docs.undi.rest/extension",
@@ -98,7 +95,6 @@ export function conf(): RuntimeConfig {
     APP_VERSION,
     TWITTER_LINK,
     DONATION_LINK,
-    FACEBOOK_LINK,
     INSTAGRAM_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     HLSCONVERTER_URL: getKey(
