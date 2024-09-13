@@ -160,10 +160,6 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
           <Divider />
           <div className="my-4 flex justify-center items-center gap-4">
             <CircleDropdownLink
-              href={conf().FACEBOOK_LINK}
-              icon={Icons.FACEBOOK}
-            />
-            <CircleDropdownLink
               href={conf().INSTAGRAM_LINK}
               icon={Icons.INSTAGRAM}
             />
