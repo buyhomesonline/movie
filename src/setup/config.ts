@@ -54,7 +54,6 @@ const env: Record<keyof Config, undefined | string> = {
   APP_VERSION: undefined,
   DONATION_LINK: undefined,
   DISCORD_LINK: undefined,
-  INSTAGRAM_LINK: undefined,
   TWITTER_LINK: undefined,
   HLSCONVERTER_URL: import.meta.env.VITE_HLSCONVERTER_URL,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: import.meta.env
