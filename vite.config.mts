@@ -67,9 +67,9 @@ export default defineConfig(({ mode }) => {
           "safari-pinned-tab.svg",
         ],
         manifest: {
-          name: "sudo-flix",
-          short_name: "sudo-flix",
-          description: "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)",
+          name: "cherrflix",
+          short_name: "cherryflix",
+          description: "🍒Watch free movies and TV shows online free with cherryflix🍒",
           theme_color: "#120f1d",
           background_color: "#120f1d",
           display: "standalone",
