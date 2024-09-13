@@ -1,18 +1,20 @@
 import {
   APP_VERSION,
   BACKEND_URL,
-  DISCORD_LINK,
-  GITHUB_LINK,
   TWITTER_LINK,
+  INSTAGRAM_LINK,
+  TWITTER_LINK,
+  DONATION_LINK,
 } from "./constants";
 
 interface Config {
   APP_VERSION: string;
-  GITHUB_LINK: string;
-  DISCORD_LINK: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
+  DONATION_LINK: string;
+  INSTAGRAM_LINK: string;
   TMDB_READ_API_KEY: string;
+  HLSCONVERTER_URL: string;
   CORS_PROXY_URL: string;
   NORMAL_ROUTER: boolean;
   BACKEND_URL: string;
@@ -28,8 +30,9 @@ interface Config {
 
 export interface RuntimeConfig {
   APP_VERSION: string;
-  GITHUB_LINK: string;
-  DISCORD_LINK: string;
+  DONATION_LINK: string;
+  INSTAGRAM_LINK: string;
+  HLSCONVERTER_URL: string;
   DMCA_EMAIL: string | null;
   TWITTER_LINK: string;
   TMDB_READ_API_KEY: string | null;
@@ -49,8 +52,9 @@ export interface RuntimeConfig {
 const env: Record<keyof Config, undefined | string> = {
   TMDB_READ_API_KEY: import.meta.env.VITE_TMDB_READ_API_KEY,
   APP_VERSION: undefined,
-  GITHUB_LINK: undefined,
-  DISCORD_LINK: undefined,
+  DONATION_LINK: undefined,
+  FACEBOOK_LINK: undefined,
+  INSTAGRAM_LINK: undefined,
   TWITTER_LINK: undefined,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: "https://docs.undi.rest/extension",
   ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: import.meta.env
@@ -90,17 +94,14 @@ function getKey(key: keyof Config, defaultString?: string): string | null {
 export function conf(): RuntimeConfig {
   return {
     APP_VERSION,
-    GITHUB_LINK,
-    DISCORD_LINK,
     TWITTER_LINK,
+    DONATION_LINK,
+    FACEBOOK_LINK,
+    INSTAGRAM_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
-    ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(
-      "ONBOARDING_CHROME_EXTENSION_INSTALL_LINK",
-      "https://docs.undi.rest/extension",
-    ),
-    ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: getKey(
-      "ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK",
-      "https://docs.undi.rest/extension",
+    HLSCONVERTER_URL: getKey(
+      "HLSCONVERTER_URL",
+      "https://hlsdownload.vidbinge.com",
     ),
     ONBOARDING_PROXY_INSTALL_LINK: getKey("ONBOARDING_PROXY_INSTALL_LINK"),
     BACKEND_URL: getKey("BACKEND_URL", BACKEND_URL),
