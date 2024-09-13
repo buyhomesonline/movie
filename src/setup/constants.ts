@@ -1,6 +1,6 @@
 export const APP_VERSION = import.meta.env.PACKAGE_VERSION;
 export const DISCORD_LINK = "https://discord.gg/XQ2eunY6";
-export const DONATION_LINK = "buymeacoffee.com/loscherriesgang";
+export const DONATION_LINK = "https://buymeacoffee.com/loscherriesgang";
 export const TWITTER_LINK = "https://twitter.com/lil2krickky";
 export const INSTAGRAM_LINK = "https://instagram.com/lil2krickky";
 export const GA_ID = import.meta.env.VITE_GA_ID;
