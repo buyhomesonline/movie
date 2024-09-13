@@ -62,7 +62,7 @@ export function HomePage() {
               scrollbar-gutter: stable;
             }
           `}</style>
-          <title>{t("global.name")}</title>
+          <title>Cherryflix</title>
         </Helmet>
         <HeroPart searchParams={searchParams} setIsSticky={setShowBg} />
       </div>
@@ -94,3 +94,4 @@ export function HomePage() {
     </HomeLayout>
   );
 }
+//{t("global.name")}
