@@ -12,6 +12,7 @@ interface Config {
   APP_VERSION: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
+  FACEBOOK_LINK: string;
   DONATION_LINK: string;
   INSTAGRAM_LINK: string;
   TMDB_READ_API_KEY: string;
@@ -32,6 +33,7 @@ interface Config {
 export interface RuntimeConfig {
   APP_VERSION: string;
   DONATION_LINK: string;
+  FACEBOOK_LINK: string;
   INSTAGRAM_LINK: string;
   HLSCONVERTER_URL: string;
   DMCA_EMAIL: string | null;
