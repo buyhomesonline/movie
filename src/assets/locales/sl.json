@@ -1,20 +1,20 @@
 {
     "about": {
-        "description": "sudo-flix je spletna aplikacija, ki omogoča enostavno iskanje filmov in serij. Ekipa si prizadeva za minimalističen pristop pri ogledu vsebin.",
+        "description": "🍒Cherryville Även känt som cvp är ett gäng i Pomona, vi skapade sajten cherryflix för de som inte har råd med netflix tacka oss senare åh och fan guppies🍒",
         "faqTitle": "Pogosto zastavljena vprašanja",
         "q1": {
-            "body": "sudo-flix ne hrani nobene vsebine. Ko si želite film ali serijo ogledati, se izvede iskanje vsebine na internetu (na zaslonu za nalaganje in v zavihku \"viri videa\" lahko vidite, kateri vir uporabljate). Vsebina medija se nikoli ne naloži na strežnike sudo-flixa, ker vse poteka iskalnega mehanizma.",
+            "body": "cherryflix ne hrani nobene vsebine. Ko si želite film ali serijo ogledati, se izvede iskanje vsebine na internetu (na zaslonu za nalaganje in v zavihku \"viri videa\" lahko vidite, kateri vir uporabljate). Vsebina medija se nikoli ne naloži na strežnike cherryflixa, ker vse poteka iskalnega mehanizma.",
             "title": "Od kod prihaja vsebina?"
         },
         "q2": {
-            "body": "Serije in filmov ni mogoče zahtevati, ker sudo-flix ne upravlja z nobeno vsebino. Vse vsebine si lahko ogledate prek virov na internetu.",
+            "body": "Serije in filmov ni mogoče zahtevati, ker cherryflix ne upravlja z nobeno vsebino. Vse vsebine si lahko ogledate prek virov na internetu.",
             "title": "Kje lahko oddam predlog za serijo ali film?"
         },
         "q3": {
             "body": "Rezultati iskanja so privzeti iz podatkovne baze \"The Movie Database\" (TMDB) in se prikazujejo ne glede na to, ali je vsebina dejansko na voljo.",
             "title": "Rezultati iskanja prikazujejo serijo oz. film, zakaj ga potem ne morem predvajati?"
         },
-        "title": "O sudo-flixbu"
+        "title": "O cherryflixbu"
     },
     "actions": {
         "copied": "Kopirano",
@@ -82,23 +82,23 @@
     "footer": {
         "legal": {
             "disclaimer": "Opozorilo",
-            "disclaimerText": "sudo-flix ne gosti nobenih medijev ali datotek, temveč le povezave do storitev tretjih oseb. Pravna vprašanja je potrebno posredovati gostiteljem in ponudnikom datotek. sudo-flix ni odgovoren za medijske datoteke, ki jih prikazujejo ponudniki."
+            "disclaimerText": "cherryflix ne gosti nobenih medijev ali datotek, temveč le povezave do storitev tretjih oseb. Pravna vprašanja je potrebno posredovati gostiteljem in ponudnikom datotek. cherryflix ni odgovoren za medijske datoteke, ki jih prikazujejo ponudniki."
         },
         "links": {
             "discord": "Discord",
             "dmca": "DMCA",
             "github": "GitHub"
         },
-        "tagline": "Z odprtokodno aplikacijo sudo-flix si oglejte najljubše oddaje in filme."
+        "tagline": "Z odprtokodno aplikacijo cherryflix si oglejte najljubše oddaje in filme."
     },
     "global": {
-        "name": "sudo-flix",
+        "name": "cherryflix",
         "pages": {
             "about": "O projektu",
             "dmca": "DMCA",
             "login": "Prijava",
             "onboarding": "Nastavitev",
-            "pagetitle": "{{title}} - sudo-flix",
+            "pagetitle": "{{title}} - cherryflix",
             "register": "Registriraj se",
             "settings": "Nastavitve"
         }
@@ -253,10 +253,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Kopiranje povezave do seznama predvajanja HLS",
-                "disclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. sudo-flix nima nadzora nad načinom zagotavljanja prenosov.",
+                "disclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. cherryflix nima nadzora nad načinom zagotavljanja prenosov.",
                 "downloadSubtitle": "Prenesi trenutne podnapise",
                 "downloadVideo": "Prenesi video",
-                "hlsDisclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. sudo-flix nima nadzora nad načinom zagotavljanja prenosov. Upoštevajte, da prenašate seznam predvajanja tipa \"HLS\" namenjen uporabnikom, ki poznajo napredno pretakanje večpredstavnostnih vsebin.",
+                "hlsDisclaimer": "Prenosi se opravijo neposredno pri ponudniku vsebin. cherryflix nima nadzora nad načinom zagotavljanja prenosov. Upoštevajte, da prenašate seznam predvajanja tipa \"HLS\" namenjen uporabnikom, ki poznajo napredno pretakanje večpredstavnostnih vsebin.",
                 "onAndroid": {
                     "1": "Če želite prenesti v sistemu Android, kliknite gumb za prenos, nato na novi strani <bold>tipnite in držite</bold> videoposnetek ter izberite <bold>shrani</bold>.",
                     "shortTitle": "Prenesi / Android",
@@ -385,7 +385,7 @@
                 "badge": "Razširitev brskalnika je onemogočena",
                 "enableExtension": "Vklopi razširitev brskalnika",
                 "homeButton": "Pojdi domov",
-                "text": "Namestili ste razširitev sudo-flix. Če jo želite začeti uporabljati, morate razširitev omogočiti za to spletno mesto.",
+                "text": "Namestili ste razširitev cherryflix. Če jo želite začeti uporabljati, morate razširitev omogočiti za to spletno mesto.",
                 "title": "Prosim vklopite razširitev brskalnika"
             },
             "items": {
@@ -416,7 +416,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Dobrodošli na sudo-flixovi kontaktni strani DMCA! Spoštujemo pravice intelektualne lastnine in želimo hitro odpraviti vse težave v zvezi z avtorskimi pravicami. Če menite, da je bilo vaše avtorsko zaščiteno delo na naši platformi nepravilno uporabljeno, pošljite podrobno obvestilo DMCA na spodnji e-poštni naslov. Vključite opis avtorsko zaščitenega gradiva, svoje kontaktne podatke in izjavo o \"prepričanju v dobri veri\". Zavezani smo k takojšnji rešitvi teh zadev in cenimo vaše sodelovanje pri ohranjanju filmskega spleta, ki spoštuje ustvarjalnost in avtorske pravice.",
+            "text": "Dobrodošli na cherryflixovi kontaktni strani DMCA! Spoštujemo pravice intelektualne lastnine in želimo hitro odpraviti vse težave v zvezi z avtorskimi pravicami. Če menite, da je bilo vaše avtorsko zaščiteno delo na naši platformi nepravilno uporabljeno, pošljite podrobno obvestilo DMCA na spodnji e-poštni naslov. Vključite opis avtorsko zaščitenega gradiva, svoje kontaktne podatke in izjavo o \"prepričanju v dobri veri\". Zavezani smo k takojšnji rešitvi teh zadev in cenimo vaše sodelovanje pri ohranjanju filmskega spleta, ki spoštuje ustvarjalnost in avtorske pravice.",
             "title": "DMCA"
         },
         "loadingApp": "Nalagam aplikacijo",
