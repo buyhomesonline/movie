@@ -2,9 +2,9 @@ import {
   APP_VERSION,
   BACKEND_URL,
   DISCORD_LINK,
+  DONATION_LINK,
   INSTAGRAM_LINK,
   TWITTER_LINK,
-  DONATION_LINK,
 } from "./constants";
 
 interface Config {
