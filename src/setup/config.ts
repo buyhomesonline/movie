@@ -4,18 +4,15 @@ import {
   DISCORD_LINK,
   DONATION_LINK,
   INSTAGRAM_LINK,
-  TWITTER_LINK,
 } from "./constants";
 
 interface Config {
   APP_VERSION: string;
-  DMCA_EMAIL: string;
-  TWITTER_LINK: string;
-  DISCORD_LINK: string;
   DONATION_LINK: string;
-  INSTAGRAM_LINK: string;
-  TMDB_READ_API_KEY: string;
+  DISCORD_LINK: string;
   HLSCONVERTER_URL: string;
+  DMCA_EMAIL: string;
+  TMDB_READ_API_KEY: string;
   CORS_PROXY_URL: string;
   NORMAL_ROUTER: boolean;
   BACKEND_URL: string;
@@ -32,11 +29,10 @@ interface Config {
 export interface RuntimeConfig {
   APP_VERSION: string;
   DONATION_LINK: string;
-  INSTAGRAM_LINK: string;
   DISCORD_LINK: string;
+  INSTAGRAM_LINK: string;
   HLSCONVERTER_URL: string;
   DMCA_EMAIL: string | null;
-  TWITTER_LINK: string;
   TMDB_READ_API_KEY: string | null;
   NORMAL_ROUTER: boolean;
   PROXY_URLS: string[];
@@ -55,10 +51,11 @@ const env: Record<keyof Config, undefined | string> = {
   TMDB_READ_API_KEY: import.meta.env.VITE_TMDB_READ_API_KEY,
   APP_VERSION: undefined,
   DONATION_LINK: undefined,
-  INSTAGRAM_LINK: undefined,
   DISCORD_LINK: undefined,
-  TWITTER_LINK: undefined,
-  ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: "https://docs.undi.rest/extension",
+  INSTAGRAM_LINK: undefined,
+  HLSCONVERTER_URL: import.meta.env.VITE_HLSCONVERTER_URL,
+  ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: import.meta.env
+    .VITE_ONBOARDING_CHROME_EXTENSION_INSTALL_LINK,
   ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: import.meta.env
     .VITE_ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK,
   ONBOARDING_PROXY_INSTALL_LINK: import.meta.env
@@ -96,14 +93,21 @@ function getKey(key: keyof Config, defaultString?: string): string | null {
 export function conf(): RuntimeConfig {
   return {
     APP_VERSION,
-    TWITTER_LINK,
     DONATION_LINK,
-    INSTAGRAM_LINK,
     DISCORD_LINK,
-    DMCA_EMAIL: getKey("DMCA_EMAIL"),
+    INSTAGRAM_LINK,
     HLSCONVERTER_URL: getKey(
       "HLSCONVERTER_URL",
       "https://hlsdownload.vidbinge.com",
+    ),
+    DMCA_EMAIL: getKey("DMCA_EMAIL"),
+    ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(
+      "ONBOARDING_CHROME_EXTENSION_INSTALL_LINK",
+      "https://chromewebstore.google.com/detail/movie-web-extension/hoffoikpiofojilgpofjhnkkamfnnhmm",
+    ),
+    ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: getKey(
+      "ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK",
+      "https://addons.mozilla.org/en-GB/firefox/addon/movie-web-extension",
     ),
     ONBOARDING_PROXY_INSTALL_LINK: getKey("ONBOARDING_PROXY_INSTALL_LINK"),
     BACKEND_URL: getKey("BACKEND_URL", BACKEND_URL),
@@ -113,7 +117,7 @@ export function conf(): RuntimeConfig {
       .map((v) => v.trim())
       .filter((v) => v.length > 0),
     NORMAL_ROUTER: getKey("NORMAL_ROUTER", "false") === "true",
-    HAS_ONBOARDING: getKey("HAS_ONBOARDING", "false") === "true",
+    HAS_ONBOARDING: getKey("HAS_ONBOARDING", "true") === "true",
     ALLOW_AUTOPLAY: getKey("ALLOW_AUTOPLAY", "false") === "true",
     TURNSTILE_KEY: getKey("TURNSTILE_KEY"),
     DISALLOWED_IDS: getKey("DISALLOWED_IDS", "")
