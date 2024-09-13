@@ -94,4 +94,4 @@ export function HomePage() {
     </HomeLayout>
   );
 }
-//{t("global.name")}
+// {t("global.name")}
