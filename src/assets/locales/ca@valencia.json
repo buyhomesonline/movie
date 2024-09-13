@@ -1,20 +1,20 @@
 {
     "about": {
-        "description": "sudo-flix és una aplicació web que cerca fluxos a internet. L'equip té com a objectiu un enfocament majoritàriament minimalista del consum de contingut.",
+        "description": "🍒Cherryville També coneguda com cvp és una colla a Pomona, vam crear el lloc cherryflix per a aquells que no es poden permetre netflix gràcies més tard oh i puta guppies🍒",
         "faqTitle": "Preguntes freqüents",
         "q1": {
-            "body": "sudo-flix no allotja cap contingut. Quan feu clic en un contingut per a mirar-lo, es busca a Internet (a la pantalla de càrrega i a la pestanya «Fonts de vídeo» podeu mirar quina font utilitzeu). sudo-flix mai puja contingut, tot és a través del mecanisme de cerca.",
+            "body": " no allotja cap contingut. Quan feu clic en un contingut per a mirar-lo, es busca a Internet (a la pantalla de càrrega i a la pestanya «Fonts de vídeo» podeu mirar quina font utilitzeu).  mai puja contingut, tot és a través del mecanisme de cerca.",
             "title": "D'on prové el contingut?"
         },
         "q2": {
-            "body": "No és possible sol·licitar un programa o una pel·lícula, sudo-flix no gestiona cap contingut. Tot el contingut es visualitza a través de fonts a internet.",
+            "body": "No és possible sol·licitar un programa o una pel·lícula,  no gestiona cap contingut. Tot el contingut es visualitza a través de fonts a internet.",
             "title": "On puc sol·licitar un programa o una pel·lícula?"
         },
         "q3": {
             "body": "Els resultats de cerca funcionen amb The Movie Database (TMDB) i es mostren independentment de si les nostres fonts realment tenen el contingut.",
             "title": "Els resultats de la cerca mostren el programa o la pel·lícula, per què no puc reproduir-lo?"
         },
-        "title": "Sobre sudo-flix"
+        "title": "Sobre "
     },
     "actions": {
         "copied": "S'ha copiat",
@@ -82,7 +82,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Avís d'exempció de responsabilitat",
-            "disclaimerText": "sudo-flix no allotja cap fitxer, només enllaça a serveis de tercers. Els problemes legals s'han d'abordar amb qui allotja i els proveïdors de fitxers. sudo-flix no es fa responsable del contingut mostrat pels proveïdors de vídeo."
+            "disclaimerText": " no allotja cap fitxer, només enllaça a serveis de tercers. Els problemes legals s'han d'abordar amb qui allotja i els proveïdors de fitxers.  no es fa responsable del contingut mostrat pels proveïdors de vídeo."
         },
         "links": {
             "discord": "Discord",
@@ -92,13 +92,13 @@
         "tagline": "Mireu els vostres programes i pel·lícules preferits amb esta aplicació de codi obert de reproducció en temps real."
     },
     "global": {
-        "name": "sudo-flix",
+        "name": "",
         "pages": {
             "about": "Quant a",
             "dmca": "DMCA",
             "login": "Inicia sessió",
             "onboarding": "Configura",
-            "pagetitle": "{{title}} - sudo-flix",
+            "pagetitle": "{{title}} - ",
             "register": "Registra",
             "settings": "Configuració"
         }
@@ -235,7 +235,7 @@
                     "title": "Servidor intermediari personalitzat"
                 }
             },
-            "title": "Configurem el sudo-flix"
+            "title": "Configurem el "
         }
     },
     "overlays": {
@@ -252,10 +252,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Copia l'enllaç de la llista HLS",
-                "disclaimer": "Les baixades s'obtenen directament del proveïdor. sudo-flix no té control sobre com es proporcionen les baixades.",
+                "disclaimer": "Les baixades s'obtenen directament del proveïdor.  no té control sobre com es proporcionen les baixades.",
                 "downloadSubtitle": "Baixa els subtítols actuals",
                 "downloadVideo": "Baixa el vídeo",
-                "hlsDisclaimer": "Les baixades s'obtenen directament del proveïdor. sudo-flix no té control sobre com es proporcionen les baixades. <br /><br />Tingueu en compte que esteu baixant una llista de reproducció HLS, <bold>no es recomana baixar-la si no esteu familiaritzat amb formats de transmissió avançats</bold>. Proveu diferents fonts per a diferents formats.",
+                "hlsDisclaimer": "Les baixades s'obtenen directament del proveïdor.  no té control sobre com es proporcionen les baixades. <br /><br />Tingueu en compte que esteu baixant una llista de reproducció HLS, <bold>no es recomana baixar-la si no esteu familiaritzat amb formats de transmissió avançats</bold>. Proveu diferents fonts per a diferents formats.",
                 "onAndroid": {
                     "1": "Per a baixar-lo a Android, feu clic al botó de baixada i, a la pàgina nova, <bold>manteniu premut</bold> el vídeo i, a continuació, seleccioneu <bold>Desa</bold>.",
                     "shortTitle": "Baixa / Android",
@@ -398,7 +398,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Verifiqueu que sou humà completant el Captcha de la dreta. Ho fem per a mantindre segura sudo-flix!",
+            "description": "Verifiqueu que sou humà completant el Captcha de la dreta. Ho fem per a mantindre segura !",
             "error": "No s'ha pogut verificar la humanitat. Torneu-ho a provar.",
             "title": "Necessitem verificar que sou humà.",
             "verifyingHumanity": "Verificant la vostra humanitat…"
@@ -406,7 +406,7 @@
     },
     "screens": {
         "dmca": {
-            "text": "Vos donem la benvinguda a la pàgina de contacte DMCA de sudo-flix! Respectem els drets de propietat intel·lectual i volem resoldre qualsevol problema de drets d'autor ràpidament. Si creieu que la vostra obra protegida per drets d'autor s'ha utilitzat incorrectament a la nostra plataforma, envieu un avís detallat de la DMCA al correu electrònic següent. Incloeu una descripció del material protegit per drets d'autor, les vostres dades de contacte i una declaració de creença de bona fe. Ens comprometem a resoldre estes assumptes amb agilitat i agraïm la vostra col·laboració per a mantindre sudo-flix en un lloc que respecta la creativitat i els drets d'autor.",
+            "text": "Vos donem la benvinguda a la pàgina de contacte DMCA de ! Respectem els drets de propietat intel·lectual i volem resoldre qualsevol problema de drets d'autor ràpidament. Si creieu que la vostra obra protegida per drets d'autor s'ha utilitzat incorrectament a la nostra plataforma, envieu un avís detallat de la DMCA al correu electrònic següent. Incloeu una descripció del material protegit per drets d'autor, les vostres dades de contacte i una declaració de creença de bona fe. Ens comprometem a resoldre estes assumptes amb agilitat i agraïm la vostra col·laboració per a mantindre  en un lloc que respecta la creativitat i els drets d'autor.",
             "title": "DMCA"
         },
         "loadingApp": "S'està carregant l'aplicació",
