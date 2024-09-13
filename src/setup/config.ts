@@ -4,6 +4,7 @@ import {
   DISCORD_LINK,
   DONATION_LINK,
   INSTAGRAM_LINK,
+  TWITTER_LINK,
 } from "./constants";
 
 interface Config {
@@ -31,6 +32,7 @@ export interface RuntimeConfig {
   DONATION_LINK: string;
   DISCORD_LINK: string;
   INSTAGRAM_LINK: string;
+  TWITTER_LINK: string;
   HLSCONVERTER_URL: string;
   DMCA_EMAIL: string | null;
   TMDB_READ_API_KEY: string | null;
@@ -53,6 +55,7 @@ const env: Record<keyof Config, undefined | string> = {
   DONATION_LINK: undefined,
   DISCORD_LINK: undefined,
   INSTAGRAM_LINK: undefined,
+  TWITTER_LINK: undefined,
   HLSCONVERTER_URL: import.meta.env.VITE_HLSCONVERTER_URL,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: import.meta.env
     .VITE_ONBOARDING_CHROME_EXTENSION_INSTALL_LINK,
@@ -96,6 +99,7 @@ export function conf(): RuntimeConfig {
     DONATION_LINK,
     DISCORD_LINK,
     INSTAGRAM_LINK,
+    TWITTER_LINK,
     HLSCONVERTER_URL: getKey(
       "HLSCONVERTER_URL",
       "https://hlsdownload.vidbinge.com",
