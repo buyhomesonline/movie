@@ -62,7 +62,7 @@ export function HomePage() {
               scrollbar-gutter: stable;
             }
           `}</style>
-          <title>{t("global.name")} | Watch Free Movies And TV{"  "}</title>
+          <title> {t("global.name")} | Watch Free Movies And TV{" "}</title>
         </Helmet>
         <HeroPart searchParams={searchParams} setIsSticky={setShowBg} />
       </div>
