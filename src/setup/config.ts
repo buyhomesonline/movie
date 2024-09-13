@@ -2,6 +2,7 @@ import {
   APP_VERSION,
   BACKEND_URL,
   INSTAGRAM_LINK,
+  DISCORD_LINK,
   TWITTER_LINK,
   DONATION_LINK,
   FACEBOOK_LINK,
@@ -11,6 +12,7 @@ interface Config {
   APP_VERSION: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
+  DISCORD_LINK: string;
   DONATION_LINK: string;
   INSTAGRAM_LINK: string;
   TMDB_READ_API_KEY: string;
@@ -32,6 +34,7 @@ export interface RuntimeConfig {
   APP_VERSION: string;
   DONATION_LINK: string;
   INSTAGRAM_LINK: string;
+  DISCORD_LINK: string;
   HLSCONVERTER_URL: string;
   DMCA_EMAIL: string | null;
   TWITTER_LINK: string;
@@ -54,6 +57,7 @@ const env: Record<keyof Config, undefined | string> = {
   APP_VERSION: undefined,
   DONATION_LINK: undefined,
   INSTAGRAM_LINK: undefined,
+  DISCORD_LINK: undefined,
   TWITTER_LINK: undefined,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: "https://docs.undi.rest/extension",
   ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: import.meta.env
@@ -96,6 +100,7 @@ export function conf(): RuntimeConfig {
     TWITTER_LINK,
     DONATION_LINK,
     INSTAGRAM_LINK,
+    DISCORD_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     HLSCONVERTER_URL: getKey(
       "HLSCONVERTER_URL",
