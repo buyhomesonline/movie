@@ -5,6 +5,7 @@ import {
   INSTAGRAM_LINK,
   TWITTER_LINK,
   DONATION_LINK,
+  FACEBOOK_LINK,
 } from "./constants";
 
 interface Config {
