@@ -1,8 +1,8 @@
 import {
   APP_VERSION,
   BACKEND_URL,
-  INSTAGRAM_LINK,
   DISCORD_LINK,
+  INSTAGRAM_LINK,
   TWITTER_LINK,
   DONATION_LINK,
 } from "./constants";
