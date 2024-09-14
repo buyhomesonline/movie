@@ -89,8 +89,8 @@
   },
   "footer": {
     "legal": {
-      "disclaimer": "🍒 Disclaimer 🍒"
-      "disclaimerText": "Please note: cherryflix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimer": "🍒 Disclaimer 🍒",
+      "disclaimerText": "Please note: cherryflix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them.",
     },
     "links": {
       "discord": "Discord",
